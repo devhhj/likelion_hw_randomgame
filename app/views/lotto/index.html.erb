@@ -1,0 +1,86 @@
+<div>
+
+    <div class="jumbotron">
+        <h1>로또 번호 추첨</h1>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">새로고침</a></p>
+    </div>
+    
+    
+    <div class="lotto_number_live">
+        <span id="lotto_number_livetitle">
+            이주의 로또 번호
+        </span>
+        
+        <span id="lotto_number_live0">
+            <%= @drw_number[0] %>
+        </span>
+        
+        <span id="lotto_number_live1">
+            <%= @drw_number[1] %>
+        </span>
+        
+        <span id="lotto_number_live2">
+            <%= @drw_number[2] %>
+        </span>
+        
+        <span id="lotto_number_live3">
+            <%= @drw_number[3] %>
+        </span>
+        
+        <span id="lotto_number_live4">
+            <%= @drw_number[4] %>
+        </span>
+        
+        <span id="lotto_number_livebtitle">
+            이주의 로또 보너스 번호
+        </span>
+        
+        <span id="lotto_number_liveb">
+            <%= @bonus_number %>
+        </span>
+    </div>
+    
+    
+    <div class="lotto_number_match">
+        <span id="lotto_number_matchtitle">
+            추천번호
+        </span>
+        
+        <span id="lotto_number_match0">
+            <%= @my_numbers[0] %>
+        </span>
+        
+        <span id="lotto_number_match1">
+            <%= @my_numbers[1] %>
+        </span>
+        
+        <span id="lotto_number_match2">
+            <%= @my_numbers[2] %>
+        </span>
+        
+        <span id="lotto_number_match3">
+            <%= @my_numbers[3] %>
+        </span>
+        
+        <span id="lotto_number_match4">
+            <%= @my_numbers[4] %>
+        </span>
+        
+        <span id="lotto_number_match5">
+            <%= @my_numbers[5] %>
+        </span>
+    </div>
+    
+    
+    <div class="lotto_ranking">
+        <span id="lotto_rankingtitle">
+            당첨등수
+        </span>
+        
+        <span id="lotto_ranking0">
+            <%= @result %>
+        </span>
+    </div>
+
+
+</div>

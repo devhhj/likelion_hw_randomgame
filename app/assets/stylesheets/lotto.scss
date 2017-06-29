@@ -1,0 +1,296 @@
+// Place all the styles related to the lotto controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+    text-align : center;
+}
+
+.lotto_number_live {
+    display : flex;
+    flex-direction : row;
+    flex-wrap : nowrap;
+    justify-content : center;
+    margin:20px;
+}
+
+#lotto_number_livetitle{
+     display: -webkit-flex;
+     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin-right:5px;
+}
+
+#lotto_number_live0{
+     display: -webkit-flex;
+     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_live1{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_live2{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_live3{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_live4{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin-right:20px;
+}
+
+#lotto_number_livebtitle{
+     display: -webkit-flex;
+     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin-right:5px;
+}
+
+#lotto_number_liveb{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px red solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+.lotto_number_match {
+    display : flex;
+    flex-direction : row;
+    flex-wrap : nowrap;
+    justify-content : center;
+    margin:20px;
+}
+
+#lotto_number_matchtitle{
+     display: -webkit-flex;
+     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin-right:5px;
+}
+
+#lotto_number_match0 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_match1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_match2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_match3 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_match4 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+#lotto_number_match5 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px blue solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
+
+.lotto_ranking {
+    display : flex;
+    flex-direction : row;
+    flex-wrap : nowrap;
+    justify-content : center;
+    margin:20px;
+}
+
+#lotto_rankingtitle{
+     display: -webkit-flex;
+     display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin-right:5px;
+}
+
+#lotto_ranking0 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    text-align:center;
+    background-color:#fff;
+	border: 3px green solid;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+}
